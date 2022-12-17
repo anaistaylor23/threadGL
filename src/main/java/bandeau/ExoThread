@@ -5,7 +5,7 @@ public class ExoThread extends Thread{
     private Bandeau Band;
     private List<ScenarioElement> Element;
 
-    public ExoThread(Bandeau Band, List<ScenarioEle> Element) {
+    public ExoThread(Bandeau Band, List<ScenarioElement> Element) {
         this.Band = Band;
         this.Element = Element;
     }
